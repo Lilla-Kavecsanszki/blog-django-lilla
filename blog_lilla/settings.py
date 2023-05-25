@@ -34,6 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["blog_lilla.herokuapp.com",
                  "localhost",
                  "8000-lilla-kavecsanszki-blog-vs7ecv30yi.us2.codeanyapp.com",
+                 '8000-lilla-kavecsanszki-blog-l6wzq476do.us2.codeanyapp.com',
                  "blogdjangolilla.herokuapp.com"]
 
 
@@ -56,7 +57,6 @@ INSTALLED_APPS = [
     'blogdjangolilla',
 ]
 
-SITE_ID = 1
 SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
